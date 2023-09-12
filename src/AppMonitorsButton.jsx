@@ -34,7 +34,7 @@ export default function AppMentorsButton() {
           </li>
         ))}
       </ul>
-      <ButtonUseMemo text='멘토 이름 바꾸기' onClick={handleUpdate}/>
+      <Button text='멘토 이름 바꾸기' onClick={handleUpdate}/>
       <ButtonUseMemo text='삭제하기' onClick={handleDelete}/>
       <ButtonUseMemo text='멘토 추가하기' onClick={handleAdd}/>
     </div>
